@@ -90,10 +90,23 @@ After refactoring or implementing changes:
 Don't leave corpses. Don't delete without asking.
 
 ## Commit and push changes frequently
+This behaviour has a medium priority.
 
 - You work on a local git repo with a remote origin configured.
 - Commit frequently after every plan finishes and tests finish successfully.
 - Push changes frequently to remote repo after each commit.
+
+## Keep the project documented
+This behaviour has a medium priority.
+
+Keep the project documented in ARCHITECTURE.md. This document should describe.
+
+- General project purpose and features
+- How it is installed from scratch on a new system
+- How data can be restored from a backup after a fresh installation
+- What's the project architecture and how componentes interact with each other
+- Any relevant project design choices and trade-offs.
+- Any known limitations and caveats.
 
 # Patterns to leverage
 
